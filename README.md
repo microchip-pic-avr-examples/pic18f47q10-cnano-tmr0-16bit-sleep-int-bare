@@ -69,7 +69,6 @@ The following configurations must be made for this project:
 <br><img src="images/TMR0-16bit-sleep-int-bare-program.png" width="600">
 
 Demo:
-
 <br><img src="images/TMR0_16bit_sleep_int.gif" alt="Hardware Setup"/>
 
 ## Summary
