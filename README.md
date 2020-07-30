@@ -1,5 +1,4 @@
-<div id="readme" class="Box-body readme blob js-code-block-container">
- <article class="markdown-body entry-content p-3 p-md-6" itemprop="This needs to locked down and 'never' changed"><p><a href="https://www.microchip.com" rel="nofollow"><img src="images/Microchip.png" alt="MCHP" width="300";"></a></p>
+![Microchip](images/Microchip.png)
 
 # PIC18F47Q10 Using TMR0 in 16-bit Mode with Periodic Interrupt
 
@@ -7,9 +6,10 @@
 ## Objective
 This repository contains an example of bare-metal source code for TMR0 as described in [*TBxxxx - Getting Started with Timers/Counters on PIC18*](https://www.microchip.com/) document from Microchip.
 
-<br>This example describes how to configure TMR0 in 16-bit mode and generate an overflow interrupt every ten seconds,
+This example describes how to configure TMR0 in 16-bit mode and generate an overflow interrupt every ten seconds,
 using LFINTOSC as clock source. TMR0 will run while the microcontroller is in Sleep mode.
-<br>A GPIO pin (the development board’s on-board LED) will be configured as output and when the interrupt occurs, the microcontroller is woken up, the LED is lit for 100 ms and then the microcontroller is put back in Sleep mode.
+
+A GPIO pin (the development board’s on-board LED) will be configured as output and when the interrupt occurs, the microcontroller is woken up, the LED is lit for 100 ms and then the microcontroller is put back in Sleep mode.
 
 ## Related Documentation
 - [TBxxxx - Getting Started with Timers/Counters on PIC18](http://www.microchip.com/)
@@ -28,7 +28,7 @@ using LFINTOSC as clock source. TMR0 will run while the microcontroller is in Sl
 ## Setup
 The PIC18F47Q10 Curiosity Nano Development Board is used as the test platform.
 
-<br><img src="images/PIC18F47Q10_CNANO.png" width="600">
+![Microchip](images/PIC18F47Q10_CNANO.png)
 
 The following configurations must be made for this project:
 - Clock
@@ -58,19 +58,20 @@ The following configurations must be made for this project:
 2. Open the *pic18f47q10-cnano-tmr0-16bit-sleep-int-bare.X* project in MPLAB® X IDE.
 
 3. Set *pic18f47q10-cnano-tmr0-16bit-sleep-int-bare* project as main project. Right click on the project in the *Projects* tab and click *Set as Main Project*:
-<br><img src="images/TMR0-16bit-sleep-int-bare-main-project.png" width="600">
+
+![Microchip](images/TMR0-16bit-sleep-int-bare-main-project.png)
 
 4. Select the *PIC18F47Q10 Curiosity Nano* in the *Hardware Tool* section of the project settings:
   - Right click on the project and click *Properties*;
   - Select the *PIC18F47Q10 Curiosity Nano* (click on the SN) in the *Hardware Tool* tab and then click *OK*:
-<br><img src="images/TMR0-16bit-sleep-int-bare-tool-settings.png" width="600">
-
+![Microchip](images/TMR0-16bit-sleep-int-bare-tool-settings.png)
 
 5. Program the project to the board: right click on the project and click *Make and Program Device*:
-<br><img src="images/TMR0-16bit-sleep-int-bare-program.png" width="600">
+![Microchip](images/TMR0-16bit-sleep-int-bare-program.png)
 
 Demo:
-<br><img src="images/TMR0_16bit_sleep_int.gif" alt="Hardware Setup"/>
+
+![Microchip](images/TMR0_16bit_sleep_int.gif)
 
 ## Summary
 
