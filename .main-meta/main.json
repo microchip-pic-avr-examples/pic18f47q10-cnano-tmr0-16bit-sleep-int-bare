@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f47q10-cnano-tmr0-16bit-sleep-int-bare",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "displayName": "PIC18F47Q10 TMR0 16-BIT SLEEP WITH INTERRUPT EXAMPLE",
         "projectName": "pic18f47q10-cnano-tmr0-16bit-sleep-int-bare",
         "shortDescription": "PIC18F47Q10 TMR0 16-bit example using sleep operation with interrupt wake-up",
