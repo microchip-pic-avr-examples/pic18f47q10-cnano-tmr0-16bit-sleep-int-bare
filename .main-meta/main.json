@@ -5,11 +5,11 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f47q10-cnano-tmr0-16bit-sleep-int-bare",
         "version": "1.0.2",
-        "displayName": "PIC18F47Q10 TMR0 16-BIT SLEEP WITH INTERRUPT EXAMPLE",
+        "displayName": "TMR0 16-bit Sleep with Interrupt",
         "projectName": "pic18f47q10-cnano-tmr0-16bit-sleep-int-bare",
         "shortDescription": "PIC18F47Q10 TMR0 16-bit example using sleep operation with interrupt wake-up",
         "ide": {
-            "name": "MPLABX",
+            "name": "MPLAB® X IDE",
             "semverRange": ">=5.30.0"
         },
         "compiler": [
@@ -23,7 +23,7 @@
             "semverRange": "^1.3.89"
         },
         "configurator": {
-            "name": "",
+            "name": "Bare Metal",
             "semverRange": ""
         },
         "device": {
@@ -38,19 +38,19 @@
         },
         "author": "Microchip",
         "subcategories": [
-            "Bare-metal",
+            "Peripherals",
             [
                "Peripherals", "TMR0"
             ]            			
         ],
         "peripherals": [
-            "",""
+            "TMR0",""
         ],
         "keywords": [
-            "bare-metal",
-            "tmr0",
-	    "sleep",
-	    "interrupt"			
+            "timers/counters",
+            "timer/counter",
+			"sleep",
+	        "interrupt"			
         ],
 		"additionalData": {
 			"longDescription": {
