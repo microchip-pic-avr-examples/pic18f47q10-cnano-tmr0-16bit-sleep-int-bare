@@ -40,17 +40,17 @@
         "subcategories": [
             "Peripherals",
             [
-               "Peripherals", "TMR0"
+               "Peripherals", "TIMER", "TMR0"
             ]            			
         ],
         "peripherals": [
-            "TMR0",""
+            "TIMER","TMR0"
         ],
         "keywords": [
             "Timers/Counters",
             "Timer/Counter",
-			"Sleep",
-	        "Interrupt"			
+			"Low Power",
+	        "Interrupts"			
         ],
 		"additionalData": {
 			"longDescription": {
