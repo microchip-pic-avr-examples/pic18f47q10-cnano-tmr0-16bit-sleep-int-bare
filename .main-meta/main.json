@@ -50,7 +50,8 @@
             "Timers/Counters",
             "Timer/Counter",
 			"Low Power",
-	        "Interrupts"			
+	        "Interrupts",
+			"Bare metal"
         ],
 		"additionalData": {
 			"longDescription": {
