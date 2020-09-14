@@ -4,7 +4,7 @@
 
 
 ## Objective
-This repository contains an example of bare-metal source code for TMR0 as described in [*TBxxxx - Getting Started with Timers/Counters on PIC18*](https://www.microchip.com/) document from Microchip.
+This repository contains an example of bare-metal source code for TMR0 as described in [*TB3285 - Getting Started with Timers/Counters on PIC18*](https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1003329) document from Microchip.
 
 This example describes how to configure TMR0 in 16-bit mode and generate an overflow interrupt every ten seconds,
 using LFINTOSC as clock source. TMR0 will run while the microcontroller is in Sleep mode.
