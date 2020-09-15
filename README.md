@@ -7,7 +7,7 @@
 This repository contains an example of bare-metal source code for TMR0 as described in [*TB3285 - Getting Started with Timers/Counters on PIC18*](https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1003329) document from Microchip.
 
 This example describes how to configure TMR0 in 16-bit mode and generate an overflow interrupt every ten seconds,
-using LFINTOSC as clock source. TMR0 will run while the microcontroller is in Sleep mode.
+using LFINTOSC as clock source. TMR0 is running while the microcontroller is in Sleep mode.
 
 A GPIO pin (the development board’s on-board LED) will be configured as output and when the interrupt occurs, the microcontroller is woken up, the LED is lit for 100 ms and then the microcontroller is put back in Sleep mode.
 
