@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f47q10-cnano-tmr0-16bit-sleep-int-bare",
-        "version": "1.0.3",
+        "version": "1.0.4",
         "displayName": "Using TMR0 in 16-bit Mode with Periodic Interrupt",
         "projectName": "pic18f47q10-cnano-tmr0-16bit-sleep-int-bare",
         "shortDescription": "This example describes how to configure TMR0 in 16-bit mode and generate an overflow interrupt every ten seconds, using LFINTOSC as clock source. TMR0 is running while the microcontroller is in Sleep mode. A GPIO is toggled every 100 ms.",
@@ -38,7 +38,6 @@
         },
         "author": "Microchip",
         "subcategories": [
-            "Peripherals",
             [
                "Peripherals", "TIMER", "TMR0"
             ]            			
@@ -51,7 +50,7 @@
             "Timer/Counter",
 			"Low Power",
 	        "Interrupts",
-			"Bare metal"
+			"Bare Metal"
         ],
 		"additionalData": {
 			"longDescription": {
