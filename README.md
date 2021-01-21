@@ -1,4 +1,4 @@
-![Microchip](images/Microchip.png)
+[![MCHP](images/microchip.png)](https://www.microchip.com)
 
 # PIC18F47Q10 Using TMR0 in 16-bit Mode with Periodic Interrupt
 
